@@ -3,7 +3,7 @@ import Button from "./assets/components/Button.jsx";
 
 function App() {
     return (
-        <main>
+        <header>
             <h1>Handbags & Purses</h1>
             <nav>
                 <Button
@@ -22,7 +22,7 @@ function App() {
                     isDisabled={true}
                 />
             </nav>
-        </main>
+        </header>
     )
 }
 
