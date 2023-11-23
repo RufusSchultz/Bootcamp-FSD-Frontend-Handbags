@@ -1,10 +1,13 @@
 import './App.css'
 import Button from "./assets/components/Button.jsx";
 import Product from "./assets/components/Product.jsx";
+import Tile from "./assets/components/Tile.jsx";
 import bag_1 from "./assets/bag_1.png";
 import bag_2 from "./assets/bag_2.png";
 import bag_3 from "./assets/bag_3.png";
 import bag_4 from "./assets/bag_4.png";
+import brand from "./assets/brand.png";
+import our_story from "./assets/our_story.png";
 
 function App() {
     return (
@@ -55,8 +58,25 @@ function App() {
                     bagPrice="€150,-"
                 />
             </main>
+            <footer>
+                <Tile
+                    title="The brand"
+                    textOne="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eligendi in molestiae odio perferendis possimus quae voluptatum! Aut, excepturi, voluptatum. Cumque error odit rerum tempore."
+                    textTwo="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores eligendi minima necessitatibus quod, voluptate?"
+                />
+                <Tile
+                    image={brand}
+                />
+                <Tile
+                    image={our_story}
+                />
+                <Tile
+                    title="Our story"
+                    textOne="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eius officiis suscipit! Ea eum officiis pariatur recusandae rerum veritatis vitae! Non omnis repudiandae sed voluptas."
+                />
+            </footer>
         </div>
     )
 }
-
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores eligendi minima necessitatibus quod, voluptate?</p>
 export default App
