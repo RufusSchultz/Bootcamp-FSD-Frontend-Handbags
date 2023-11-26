@@ -11,7 +11,7 @@ import our_story from "./assets/our_story.png";
 
 function App() {
     return (
-        <div>
+        <>
             <header>
                 <h1>Handbags & Purses</h1>
                 <nav>
@@ -75,8 +75,7 @@ function App() {
                     textOne="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eius officiis suscipit! Ea eum officiis pariatur recusandae rerum veritatis vitae! Non omnis repudiandae sed voluptas."
                 />
             </footer>
-        </div>
+        </>
     )
 }
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores eligendi minima necessitatibus quod, voluptate?</p>
 export default App
